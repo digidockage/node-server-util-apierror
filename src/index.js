@@ -8,7 +8,7 @@
  *                                                                                                 *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-// * * * * * * * * The code
+// > > > > > > > > > > > > > > > > > > > > > > > The code
 class ApiError extends Error {
   constructor(statusCode, message, isOperational = true, stack = '') {
     super(message);
@@ -24,5 +24,5 @@ class ApiError extends Error {
   }
 }
 
-// * * * * * * * * Module export
+// > > > > > > > > > > > > > > > > > > > > > > > Module exports
 module.exports = ApiError;

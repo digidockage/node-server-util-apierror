@@ -3,5 +3,5 @@ Nodejs common server util ApiError.
 
 ### Install
 ```
-npm install @esultocom/node-server-util-apierror
+npm install @digidockage/node-server-util-apierror
 ```
